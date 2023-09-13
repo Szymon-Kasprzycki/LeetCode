@@ -6,9 +6,11 @@ and you may not use the same element twice.
 You can return the answer in any order.
 """
 
+from typing import List
+
 
 class Solution:
-    def _twoSum(self, nums: list[int], target: int) -> list[int]:
+    def _twoSum(self, nums: List[int], target: int) -> List[int]:
         """
         :param nums:  list[int] - list of numbers
         :param target:  int - sum of two numbers in nums
